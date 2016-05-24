@@ -29,7 +29,7 @@ app.route('/beepboop')
 
     // Handle any help requests
     if (req.body.text === 'help') {
-      message = "Sorry, I can't offer much help, just here to beep and boop"
+      message = "Sorry, I can't offer much help, just here to beep and boop. Gio is a cool guy."
     }
 
     res.json({
